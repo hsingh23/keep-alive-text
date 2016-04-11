@@ -1,3 +1,4 @@
+var fs = require('fs');
 var config = JSON.parse(fs.readFileSync("config.json"));
 var client = require('twilio')(config.twilio.account, config.twilio.token);
 var default_from = config.twilio.from;

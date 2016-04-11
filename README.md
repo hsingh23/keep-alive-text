@@ -1,4 +1,4 @@
-This is a simple keep alive app that sends predefined texts to a list of phonenumbers at desired freqencies using twilio.
+This is a simple keep alive app that sends predefined texts to a list of numbers at desired freqencies using twilio.
 
 How to use with docker:
 1. Create keep-alive/config.json - use the example_config.json as a template  
