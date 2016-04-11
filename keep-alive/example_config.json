@@ -1,0 +1,15 @@
+{
+	"twilio": {
+		"account": "your_twilio_account",
+		"token": "your_twilio_token",
+		"from": "your twilio phone number",
+		"body": "Poke"
+	},
+	"phones": [
+		{
+			"frequency_in_sec": 172800,
+			"to": "some phone number",
+			"body": "optional: some other message"
+		}
+	]
+}
