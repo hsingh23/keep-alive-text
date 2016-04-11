@@ -13,5 +13,6 @@ function send_text(phone_info) {
 }
 
 config.phones.map(function send_text_to_all_phones(phone_info) {
+	send_text(phone_info); //send the first message right away so we know things are working
     setInterval(send_text, phone_info.frequency_in_sec * 1000, phone_info);
 });
